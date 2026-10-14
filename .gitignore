@@ -1,0 +1,6 @@
+.gradle/
+.gradle-tool/
+build/
+desktop/build/
+verify-gradle/
+verify-gradle.zip
