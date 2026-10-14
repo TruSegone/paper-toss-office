@@ -33,7 +33,7 @@ jobs:
         run: |
           mkdir -p dist/assets
           cp web/index.html web/style.css web/game.js dist/
-          cp assets/*.png dist/assets/
+          cp assets/*.png assets/*.svg dist/assets/
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
